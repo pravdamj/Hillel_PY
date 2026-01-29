@@ -1,32 +1,32 @@
 # Варіант 1
-list = [12, 3, 4, 10]
-if len(list) <= 1:
-    result = list
+new_list = [12, 3, 4, 10]
+if len(new_list) <= 1:
+    result = new_list
 else:
-    result = [list[-1]] + list[:-1]
+    result = [new_list[-1]] + new_list[:-1]
 print(result)
 
 # Варіант 2
-list = [1]
+new_list = [1]
 
-if len(list) <= 1:
-    result = list
+if len(new_list) <= 1:
+    result = new_list
 else:
-    result = [list[-1]] + list[:-1]
+    result = [new_list[-1]] + new_list[:-1]
 print(result)
 
 # Варіант 3
-list = [0]
-if len(list) <= 1:
-    result = list
+new_list = [0]
+if len(new_list) <= 1:
+    result = new_list
 else:
-    result = [list[-1]] + list[:-1]
+    result = [new_list[-1]] + new_list[:-1]
 print(result)
 
 # Варіант 4
-list = [12, 3, 4, 10, 8]
-if len(list) <= 1:
-    result = list
+new_list = [12, 3, 4, 10, 8]
+if len(new_list) <= 1:
+    result = new_list
 else:
-    result = [list[-1]] + list[:-1]
+    result = [new_list[-1]] + new_list[:-1]
 print(result)
