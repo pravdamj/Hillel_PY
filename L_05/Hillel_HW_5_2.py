@@ -25,7 +25,7 @@ while True:
     else:
         print("Невідома дія")
 
-    next = input("Продовжити роботу? (yes/y): ").lower()
+    next = input("Продовжити роботу? (yes/y): ")
     if next not in ("yes", "y"):
         print("Роботу завершено")
         break
